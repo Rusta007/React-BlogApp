@@ -1,0 +1,91 @@
+* {
+   
+    margin-left: 2%;
+    margin-right: 2% ;
+    margin-top: 15px;
+
+}
+
+
+.header{
+    font-size:30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+    transform: rotate(-90deg);
+    background-color : Black;
+    color:white ;
+    padding:  5px;
+    margin-right: -25px;
+
+}
+.siren{
+   
+    font-size:50px;
+    font-weight: 700;
+    font-family:'Arial Narrow Bold', sans-serif;
+    color:black; 
+    
+
+}
+.container
+{
+    display:flex;
+}
+.details
+{
+    margin-left: -8px;
+}
+.title
+{
+    margin-left: -1px;
+    margin-right: 7px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.heading
+{
+    margin-top: -1px;
+}
+.main
+{
+    display: flex;
+
+}
+.box
+{
+    margin-top: -20px;
+    width: 80%;
+}
+.box1
+{
+    margin-top: -20px;
+    margin-left: -20px;
+}
+.adver
+{
+    border: 2px groove black;
+    height: 500px;
+
+}
+.link
+{
+    font: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:black;
+    text-decoration: none;
+    letter-spacing: 2px;
+   text-align: center;
+   margin: 0px 50px;
+    transition: all, .5s;
+    background-color: aliceblue;
+}
+.link:hover{
+    text-decoration: underline;
+    background-color: black;
+    color: aliceblue;
+    letter-spacing: 5px;
+    padding: 2px 5px 2px 5px;
+}
